@@ -1,0 +1,300 @@
+body {
+	font-size: 16px;
+	line-height: 2;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+p2 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+h1 {
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	display: grid;
+
+	/* fr = fraction */
+	grid-template-columns: repeat(12, 1fr);
+
+	/* first number is height, second is how big it can get */
+	/*	grid-auto-rows: minmax(100px, auto);*/
+
+	grid-column-gap: 5em;
+
+	grid-template-areas:
+		"h h h h h h h h h h h h"
+		". t t t t t t t t t t ."
+		". . m m m m m m m m . ."
+		". . f f f f f f f f . ."
+		". i i i i i i i i i i ."
+
+
+
+}
+
+.header {
+	grid-area: h;
+}
+
+.title {
+	grid-area: t;
+}
+
+.main {
+	grid-area: m;
+
+}
+
+.footer {
+	grid-area: f;
+}
+
+.images {
+	grid-area: i;
+}
+
+@media(min-width:500px) {
+	align: right;
+
+
+}
+
+#headerLogo {
+	height: 6rem;
+	margin-left: 15px;
+}
+
+
+header h1 {
+	font-family: sans-serif;
+	display: inline-block;
+}
+
+nav {
+	font-family: sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	float: right;
+}
+
+.header {
+	height: 10rem;
+	display: inline-block;
+
+}
+
+nav ul li {
+	display: inline;
+	list-style: none;
+	margin-left: 10rem;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: sans-serif;
+	text-align: left;
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 15px;
+	font-family: sans-serif;
+
+}
+
+h5 {
+	font-size: 15px;
+	font-style: italic;
+}
+
+h6 {
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+
+@media(max-width:27.813em) {
+	.wrapper {
+		grid-template-areas:
+			"h h h h h h h h h h h h"
+			"t t t t t t t t t t t t"
+			"m m m m m m m m m m m m"
+			"f f f f f f f f f f f f"
+
+	}
+}
+
+.image-container {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+	height: 500px;
+	background-image: url(../Images/lake.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+
+}
+
+.image-container1 {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+	height: 400px;
+	background-image: url(../Images/homepageimage.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.image-container2 {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+	height: 600px;
+	background-image: url(../Images/hoops.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.image-container3 {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+	height: 600px;
+	background-image: url(../Images/coverartist.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.image-container4 {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+	height: 1100px;
+	background-image: url(../Images/donate.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.image-container5 {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: left;
+	height: 400px;
+
+
+}
+
+
+.image-container6 {
+	display: flex;
+	justify-content: space-evenly;
+	justify-content: center;
+	height: 600px;
+	background-image: url(../Images/grass.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+
+
+
+.dancers {
+	/*	height: 20rem;*/
+}
+
+.container {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+}
+
+.contour-logo {
+	justify-content: center;
+}
+
+
+.container img {
+	width: 25em;
+}
+
+.image {
+	flex-basis: 5%
+}
+
+.text {
+	font-size: 13px;
+	padding-left: 20px;
+	font-family: sans-serif;
+
+}
+
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+
+	box-sizing: border-box;
+
+
+
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	grid-gap: 16px;
+
+}
+
+.image-grid > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 150px;
+	}
+}
+
+ul {
+	justify-content: left;
+	font-family: sans-serif;
+}
+
+iframe {
+	width="1000";
+	height="450";
+	style="border:0;
+" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+
+}
