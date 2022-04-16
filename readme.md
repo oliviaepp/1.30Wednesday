@@ -11,3 +11,7 @@ Dcode, 2021, How to create an image gallery – HTML, CSS Web Design Tutorial, h
 This was the main external resource I used throughout my project. It helped me create the image grid on the art page and was an interesting video. It showed me a way that I wouldn’t have considered creating an image grid.
 
 W3Schools, 2022, Learn to Code, https://www.w3schools.com/ I also used w3schools for several different elements of the code. I found this resource slightly difficult to use as it was hard to find what I was looking for at times.
+The University of Maine, 2022, How to embed a Google Map into a web page, https://extension.umaine.edu/plugged-in/technology-marketing-communications/web/tips-for-web-managers/embed-map/ Used when placing the map onto the homepage. I couldn’t find any sources that did not include inline css (I think this code does).
+
+Markdown Guide, 2022, Markdown Cheat Sheet, https://www.markdownguide.org/cheat-sheet/ Sourced from the canvas page and was important when formatting the read.md doc.
+
