@@ -5,7 +5,8 @@ When approaching creating this website I aimed to design a simple website with t
  
 ![Low-Fi prototype 1](/assets/images/lowfi1.png "Low-Fi prototype 1").
 ![Low-Fi prototype 2](/assets/images/lowfi2.png "Low-Fi prototype 2").
-###Resources
+
+### Resources
 Dcode, 2021, How to create an image gallery – HTML, CSS Web Design Tutorial, https://www.youtube.com/watch?v=rnhoY5Cdmy0&t=634s 
 This was the main external resource I used throughout my project. It helped me create the image grid on the art page and was an interesting video. It showed me a way that I wouldn’t have considered creating an image grid.
 
